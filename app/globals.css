@@ -1,0 +1,46 @@
+:root {
+    --white-font: #EBEBEB;
+    --global-bg-color: #1A1A1A;
+    --sealpoint-red: #9F0005;
+    --sealpoint-red-secondary: #BF2D2C;
+
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #1A1A1A;
+    margin: 0;
+    color: var(--white-font);
+    height: 100vh;
+
+    h1 {
+        font-family: var(--font-rubik-distressed);
+    }
+}
+
+::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    /* border-radius: 10px; */
+    background-color: #363636;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    /* border-radius: 10px; */
+    background-color: #505050;
+}
